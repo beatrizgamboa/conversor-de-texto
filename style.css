@@ -21,6 +21,7 @@
 }
 #img{
     width: 100px;
+    justify-content: center;
 }
 
 .hero h1{
@@ -134,4 +135,21 @@ i:hover{
 
 .social span{
     font-size: 12px;
+}
+
+@media(max-width:480px){
+    .row{
+        flex-direction: column;
+        height: 150px;
+    }
+    select{
+        width: 60%;
+        background-position-y: 30px;
+    }
+    .social{
+        margin-top: 20px;
+    }
+    textarea{
+        width: 80%;
+    }
 }
